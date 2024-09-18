@@ -1,0 +1,71 @@
+.pai-dos-lados {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.pai-dos-lados div{
+    width: 50%;
+}
+
+.pai-dos-lados .lado-direito img{
+    width: 100%;
+}
+.pai-dos-lados .lado-esquerdo p{
+    text-align: justify;/*alinha o texto*/
+}
+.pai-dos-lados .lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+ }
+
+
+.pai-dos-lados .lado-esquerdo h1, .Newsletter h2 {
+    text-transform: uppercase;
+}
+.Newsletter{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    padding-bottom: 30px;
+   
+}
+
+@media screen and (max-width: 780px) {
+    .Newsletter form{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+
+.Newsletter{
+    display: flex;
+    gap: 5px 20px;
+}
+.Newsletter .Espaco{
+gap: 5px;
+display: flex;
+flex-direction: column;
+}
+@media screen and (max-width: 733px) {
+
+ 
+    .pai-dos-lados{
+        flex-direction: column-reverse;       
+    } 
+
+    .pai-dos-lados div{
+        width: 100%; 
+}   
+}
+    
+    
+
+    
+   
+
+
+
