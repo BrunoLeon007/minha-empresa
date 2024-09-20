@@ -47,7 +47,7 @@
 }
 
 .btn:hover{ /*houver para selecionar troca de cor do botao*/
-    background: #2b70ca;
+    background: #482bca;
 }
 .rodape{
     background: #333;
@@ -65,6 +65,65 @@
     }  
 }
 
+.cabecalho nav ul li a:hover{
+    background: #482bca;
+}
+
+@media screen and (max-width: 650px) {
+    .main{
+        padding: 10px;
+    }
+}
+
+.selected{
+    background: #c71111;
+    color: rgb(28, 63, 63);
+    
+}
+.main{
+    background: linear-gradient(to right, #b83838, #fff, #000);
+}
+
+.main{
+    background-image: url(../arteum-ro-bGlH3TIzGGE-unsplash\ \(1\).jpg);
+    background-repeat: no-repeat; /*fundo nao repetir*/
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(30px);/*adicionar borrao no fundo da imagem*/
+    
+}
+
+@keyframes balada{
+    0%{
+        color: rgb(127, 240, 255);
+    }
+
+
+        50%{
+color: rgb(221, 219, 90);
+        }
+        100%{
+color: rgb(68, 0, 255);
+        }
+    
+}
+.cabecalho h1{
+    animation: movimentar infinite 2s ;
+}
+
+@keyframes movimentar {
+    0%{
+        
+transform: translate(-300px);
+    }
+    100% {
+transform: translate(0);
+
+    }
+    
+}
+ 
+    
     
     
   
